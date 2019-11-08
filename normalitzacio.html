@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StyleGuide</title>
+    <link rel="stylesheet" href="css/estil.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenLite.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/CSSPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineLite.min.js"></script>
+    <script src="js/codi.js"></script>
+</head>
+
+<body>
+    <div class="logoResp">
+        <img class="imgLogoResp" src="img/schoolSupplies.svg">
+    </div>
+
+    <div class="menu">
+        <a href="index.html" class="elementsMenu">Historia de la marca</a>
+
+        <a href="logotips.html" class="elementsMenu">Logotips, tipografia i color</a>
+
+        <a href="normalitzacio.html" class="elementsMenu active">Normalització, usos correctes, tamanys</a>
+
+        <a href="mockup.html" class="elementsMenu">Mockup, imatges, elements gràfics</a>
+
+    </div>
+    <!-- video marges -->
+    <div class="titol">Marges de respecte</div>
+    <div class="divVideo">
+        <video autoplay controls class="video">
+            <source src="videos/areaDeRespecte.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <!-- cambiar video de normalitzacio -->
+    <div class="titol">Normalització</div>
+    <div class="divVideo">
+        <video autoplay controls class="video">
+            <source src="videos/reticulaLogos.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <!-- tamanys minims -->
+    <div class="titol">Tamanys mínims de reproducció</div>
+
+    <span class="explicacioSubtitol">El tamany mínim per la web es la mida mínima que es veurà en pixels.<br> La mída mímina per impresió serà el tamany mínim en el que es podrà veure imprés el logo. <br> La mída mínima del Media Queries és la mída mínima que és veura en pantalla per píxels.</span>
+    <div class="divLogoPeque">
+        <img class="logoPeque" src="img/logoPeque.png">
+    </div>
+    <div class="tamanys">
+        <!--web -->
+        <div class="tamanyWeb">
+            <p><strong>Per web</strong> <br> 80px</p>
+        </div>
+
+        <!--impres -->
+        <div class="tamanyWeb">
+            <p><strong>Imprés</strong> <br> 2cm</p>
+        </div>
+
+        <!--media queries -->
+        <div class="tamanyWeb">
+            <p><strong>Media Queries</strong> <br> 768px</p>
+        </div>
+    </div>
+
+    <!--Usos incorrectes de la marca -->
+    <div class="titol">
+        <div>Usos incorrectes de la marca</div>
+    </div>
+    <span class="explicacioSubtitol">La marca no pot estar deformada, no pot tindre una altra tipografía ni color.<br> Tampoc pot estar super posada entre una paraula i l'altra. Ni pots tindre la icona girada.</span>
+
+    <div class=" centreImg">
+        <div>
+            <img class="imgFonsColor" src="img/usosIncorrectes/usIncorrecte1.png">
+            <img class="imgFonsColor" src="img/usosIncorrectes/usIncorrecte2.png">
+            <img class="imgFonsColor" src="img/usosIncorrectes/usIncorrecte3.png">
+        </div>
+
+        <div>
+            <img class="imgFonsColor" src="img/usosIncorrectes/usIncorrecte4.png">
+            <img class="imgFonsColor" src="img/usosIncorrectes/usIncorrecte5.png">
+            <img class="imgFonsColor" src="img/usosIncorrectes/usIncorrecte6.png">
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer">
+            <div class="elFooter">
+                <a href="index.html" class="elementsFooter">Historia de la marca</a>
+            </div>
+
+            <div class="elFooter">
+                <a href="logotips.html" class="elementsFooter">Logotips, tipografia i color</a>
+            </div>
+            <div class="elFooter">
+                <a href="normalitzacio.html" class="elementsFooter">Normalització, usos correctes, tamanys</a>
+            </div>
+            <div class="elFooter">
+                <a href="mockup.html" class="elementsFooter">Mockup, imarges, elements gràfics</a>
+                <div class="logoFooter">
+                    <img class="imgLogoFooter" src="img/logoBlanc.png">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body></html>
